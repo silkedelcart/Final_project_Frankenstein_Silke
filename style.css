@@ -100,7 +100,6 @@ body.body-mainpage {
     font-weight:100;
     margin-left: 2rem;
     margin-right: 2rem;
-    font-size: 18px;
 }
 
 .backgroundinfo {
@@ -301,6 +300,16 @@ body.body-mainpage ul.links-list a:focus {
     align-self: center;
 }
 
+#fun-facts-section{
+    border: 3px solid #daa106;
+    background-color: #000B5866;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
 #fun-facts{
     color: antiquewhite;
     text-indent: 10px;
@@ -311,7 +320,6 @@ body.body-mainpage ul.links-list a:focus {
     font-weight:100;
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
 
 .fun-factslist{
@@ -319,10 +327,7 @@ body.body-mainpage ul.links-list a:focus {
     padding-left: 5rem;
     font-family: "Recia-Regular", cursive;
     font-size: 20px;
-    margin-top: 1rem;
-    margin-bottom: 6rem;
     list-style-type: circle;
-    align-self: center;
 }
 
 .fun-factslist li {
