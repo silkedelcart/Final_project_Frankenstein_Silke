@@ -1,0 +1,525 @@
+
+
+@font-face {
+    font-family: "Quintessential";
+    src: url("fonts/Quintessential-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Recia-Regular';
+    src: url('fonts/Recia-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body.body-mainpage .navbar {
+    background-image: none !important;
+    background-color: #000B58 !important;
+}
+
+.navbar {
+    background-image: linear-gradient(90deg, #000B58 0%, antiquewhite 100%) !important;
+    background-color: transparent !important;
+}
+
+.nav-link {
+    font-family: 'Quintessential', serif;
+    font-size: 22px;
+    color: antiquewhite !important;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.45);
+}
+
+body.body-mainpage .nav-link { color: antiquewhite !important; text-shadow: 0 1px 2px rgba(0,0,0,0.45); }
+body:not(.body-mainpage) .nav-link { color: antiquewhite !important; text-shadow: none; }
+
+.navbar-brand{
+    background-color: transparent;
+    font-family: 'Quintessential', serif;
+    font-size: 32px;
+    color: antiquewhite !important;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.45);
+    pointer-events: none;
+}
+
+body.body-mainpage .navbar-brand { color: antiquewhite !important; text-shadow: 0 1px 2px rgba(0,0,0,0.45); }
+body:not(.body-mainpage) .navbar-brand { color: antiquewhite !important; text-shadow: none; }
+
+
+body.body-mainpage .navbar-toggler { 
+    border-color:  #daa106;
+    border-width: 2px;
+    background-color: antiquewhite;
+}
+
+body:not(.body-mainpage) .navbar-toggler { 
+    border-color: transparent; 
+    background-color: antiquewhite; 
+}
+
+/* default page background for all pages (non-index) */
+body {
+    background-color: antiquewhite;
+    padding: 0, 4rem, 4rem, 4rem;
+}
+
+/* override for the main/index page: add class="body-mainpage" to <body> in index.html */
+body.body-mainpage {
+    background-color: #000B58;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* for the main page */
+
+.pmainpage {
+    color: antiquewhite;
+    text-indent: 10px;
+    font-family: 'Recia-Regular';
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight:100;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+
+.backgroundinfo {
+    color: antiquewhite;
+    text-indent: 0;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Recia-Regular';
+    font-size: 20px;
+}
+
+.welcomemessage {
+    border: 2px solid #daa106;            /* frame color/thickness */
+    padding: 1rem;                        /* space between text and frame */
+    border-radius: 8px;                   /* rounded corners */
+    background: rgba(255,255,255,0.03);   /* subtle inside background */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25); /* soft drop shadow */
+    box-sizing: border-box;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Recia-Regular';
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+
+img.mainpage-image {
+    display: block;
+    margin: 0 auto 2rem auto;
+    min-width: 450px;
+    height: auto;
+    border: 10px solid #c69102;
+    padding: 0;
+    background: transparent;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+figure {
+    text-align: center;
+    margin: 1.5rem 0 1.75rem 0;
+    align-self: center;
+}
+
+.mainpage-caption {
+    color: antiquewhite;
+    font-family: 'Quintessential', static;
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+
+.h1mainpage {
+    color: antiquewhite;
+    font-family: 'Quintessential', serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 2.5rem;
+}
+.h2mainpage {
+    color: antiquewhite;
+    font-family: 'Quintessential', serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem auto;
+    max-width: 900px;
+    align-items: flex-start;
+}
+
+/* size each figure so images can scale responsively without distortion */
+#image-gallery figure {
+    width: 45%;
+    margin: 0;
+}
+
+#image-gallery img {
+    width: 100%;        /* fill the figure width */
+    height: auto;       /* preserve aspect ratio */
+    display: block;     /* remove inline spacing */
+    box-sizing: border-box; /* include border/padding in width */
+    border: 8px solid #c69102;
+    padding: 0;
+    background: transparent;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    align-self: center;
+}
+
+figcaption {
+    color: antiquewhite;
+    font-family: "Quintessential", static;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+.pages-table {
+    width: 75%;
+    border-collapse: collapse;
+    font-family: "Recia-Regular", cursive;
+    font-size: 18px;
+    margin: 0.25rem 0 0.75rem 0;
+    margin-bottom: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.pages-table th,
+.pages-table td {
+    padding: 0.25rem 0.5rem;
+    border-bottom: 3px solid rgba(255,255,255,0.06);
+    color: antiquewhite;
+    text-align: left;
+}
+.pages-table th {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Recia-Regular" ;
+}
+.pages-table a {
+    color: #daa106;
+    text-decoration: none;
+}
+.pages-table a:hover,
+.pages-table a:focus {
+    color: #ffd87a;
+    text-decoration: underline;
+}
+
+.links-list {
+    list-style-type: none;
+    padding-left: 10rem;
+    font-family: "Recia-Regular", cursive;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    list-style-type: circle;
+    align-self: center;
+}
+
+.links-list li {
+    margin-bottom: 0.5rem;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+
+body.body-mainpage ul.links-list a {
+    color: #daa106;           /* main color */
+    text-decoration: none;
+}
+body.body-mainpage ul.links-list a:hover,
+body.body-mainpage ul.links-list a:focus {
+    color: #ffd87a;           /* hover/focus color */
+    text-decoration: underline;
+}
+
+#credits {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    margin-top: 2rem;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#fun-facts{
+    color: antiquewhite;
+    text-indent: 10px;
+    font-family: 'Recia-Regular';
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight:100;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.fun-factslist{
+    list-style-type: none;
+    padding-left: 5rem;
+    font-family: "Recia-Regular", cursive;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    list-style-type: circle;
+    align-self: center;
+}
+
+.fun-factslist li {
+    margin-bottom: 0.5rem;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-indent: 10px;
+    margin-bottom: 0px;
+    color: fff09e;
+}
+
+
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.marginAdd {
+    display: none;
+}
+
+.mirador-canvas-nav {
+    display: none !important;
+}
+
+.supraAdd {
+    vertical-align: super;
+    font-size: medium;
+    font-style: italic;
+}
+
+.subAdd {
+    vertical-align: sub;
+    font-size: medium;
+}   
+
+.circled {
+    border: 1px solid #000; 
+    border-radius: 50%; 
+    padding: 2px;
+}
+
+.metadata-pages {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.metadata-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Quintessential', serif;
+    text-align: center;
+}
+
+.metadata-label {
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: 'Recia-Regular', cursive;
+    color:#000B58;
+    font-size: 16px;
+}
+
+.col {
+    background-color: antiquewhite;
+}
+
+
+.manuscriptpage{
+    background-color: antiquewhite;
+}
+
+.col-9{
+    background-color: antiquewhite;
+
+}
+
+.col-3 {
+    background-color: antiquewhite;
+}
+
+#navbarNavDropdown {
+    background-color: transparent;
+}
+
+
+
+.metadata-pages {
+    font-family: "Recia-Regular";
+}
+
+.metadata-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Recia-Regular";
+    font-size: 15px;
+    margin: 0.25rem 0 0.75rem 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.metadata-table th {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 3rem;
+}
+.metadata-table td {
+    padding: 0.75rem 0.75rem;
+    border-bottom: 3px solid rgba(0,0,0,0.16);
+    color: #000B58;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+
+.mod-stats {
+    list-style-type: circle;
+    padding-left: 0;
+    font-family: "Recia-Regular", cursive;
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color:#000B58
+}
+.mod-stats li {
+    margin-bottom: 1rem;
+    color: #000B58;
+    font-size: 18px;
+}
+
+.page-nav-btn {
+  background-color: #000B58;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.page-nav-btn:hover:not(:disabled) {
+  background-color: #22379f;
+  transform: translateY(-1px);
+}
+
+.page-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-group{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+
+#btn-toggle-deletions {
+  background-color: #daa106;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ margin-left: 2rem;
+}   
+
+#btn-toggle-deletions:hover {
+  background-color: #ffd485;
+  transform: translateY(-1px);
+}
+
+#manuscript-pages h1 {
+    color: #000B58;
+    font-family: 'Quintessential', serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#manuscript-pages h2#folio {
+    color: #000B58;
+    font-family: 'Quintessential', serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.row {
+    margin: 3.5rem;
+}
