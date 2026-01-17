@@ -71,8 +71,17 @@ body {
 
 /* override for the main/index page: add class="body-mainpage" to <body> in index.html */
 body.body-mainpage {
-    background-color: #000B58;
+  /* Solid background color (blue) */
+  background-color: #000B58; /* deep blue */
+  /* Background image with semi-transparent white overlay */
+  background-image: 
+    linear-gradient(rgba(26, 61, 124, 0.77), rgba(26, 61, 124, 0.77)), /* semi-transparent blue overlay */
+    url('images/background.jpg'); /* your image */
+  background-size: cover;        /* cover the entire screen */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;  /* don't repeat the image */               /* make text white for readability */
 }
+
 
 .starter-template {
   padding: 40px 15px;
@@ -147,6 +156,24 @@ figure {
     margin-top: 0.5rem;
 }
 
+figure.fstill-movie{
+    text-align: center;
+    margin: 1.5rem 0 1.75rem 0;
+    align-self: center;
+}
+
+img.istill-movie{
+    width: 1000px;   /* fixed width */
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem auto;
+    border: 10px solid #c69102;
+    padding: 0;
+    background: transparent;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
 
 .h1mainpage {
     color: antiquewhite;
@@ -271,6 +298,7 @@ body.body-mainpage ul.links-list a:focus {
     font-size: 14px;
     text-align: center;
     margin-bottom: 2rem;
+    align-self: center;
 }
 
 #fun-facts{
