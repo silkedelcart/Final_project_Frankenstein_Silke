@@ -46,8 +46,7 @@
         <lb/>
         the grave worms crawling in the folds of<lb/>
         the flannel; I started 
-          <add place="infralinear" hand="#MWS" rend="blackink"><metamark></metamark></add>
-          <note>'^' is used as metamark, close visual resemblance</note>
+          <add place="infralinear" hand="#MWS" rend="blackink"><metamark function= "insert">^</metamark></add>
           <add place="supralinear" hand="#MWS" rend="blackink">from my sleep</add>
           with horror, a
         <lb/>
@@ -70,22 +69,22 @@
         beheld the wretch — the miserable<lb/>
         monster whom I had created;
           <add place="infralinear" hand="#MWS" rend="blackink"><metamark>-</metamark>
-            <note>'-'is used as metamark, a thick line is used</note>
+            <note> ('-'is used as metamark, a thick line is used)</note>
           </add>
-          he hel
+           he hel
           <del type="overwritten" hand="#MWS" rend="blackink"><unclear reason='handwriting'>x</unclear></del>
         <lb/>
         up the curtain, 
           <add place="infralinear" hand="#MWS" rend="blackink"><metamark>-</metamark>
-            <note>'-'is used as metamark, a thick line is used</note>
+            <note> ('-'is used as metamark, a thick line is used)</note>
           </add>
           and his eyes; if eyes
         <lb/>
-        they may be called, were fixed on me – His<lb/>
+        they may be called, were fixed on me–His<lb/>
         <add place="marginleft" hand="#PBS" rend="blackink">inarticulate</add>jaws opened and he muttered <del type="crossedOut" hand="#PBS" rend="blackink"><add place="supralinear" hand="#PBS" rend="blackink">in</add></del> some <del type="crossedOut" hand="#MWS" rend="blackink">words</del><lb/>
         <add place="marginleft" hand="#PBS" rend="blackink">sounds</add>while a grin wrinkled his cheeks. He<lb/>
         might have spoken but I did not<lb/>
-        hear — one <choice><sic>had</sic><corr>hand</corr></choice> was stretched out<lb/>
+        hear — one <del type='crossedOut' hand='#MBS' rend='blackink'>had</del> hand was stretched out<lb/>
         to detain me but I escaped and <del type="crossedOut" hand="#MBS" rend="blackink">ran</del><lb/>
         rushed down <del type="crossedOut" hand="#PBS" rend="blackink"><add place="supralinear" hand="#PBS" rend="blackink">the</add></del> stair s <del type='crossedout' hand='#PBS' rend='blackink'>ease</del>I took refuge in<lb/>
         a court-yard belonging to the house<lb/>
@@ -95,12 +94,12 @@
         ing attentively, catching and fearing each<lb/>
         sound as if it were to announce the<lb/>
         arrival of the demoniacal corpse to<lb/>
-        which I had so miserabl<del type="overwritten" hand="#PBS" rend="blackink">e</del><add place="inline" hand="#PBS" rend="blackink">y</add> given life.<lb/>
+        which I had so miserabl<del type="crossedOut" hand="#MWS" rend="blackink">e</del><add place="inline" hand="#PBS" rend="blackink">y</add> given life.<lb/>
         Oh! no mortal could support <lb/>
         the horror of that countenance. A<lb/>
         mummy
         <metamark>&#8257;</metamark>
-        <add place="margintop" hand="#MWS" rend="blackink">again</add>
+        <add place="supralinear" hand="#MWS" rend="blackink">again</add>
         endued with 
         <del type="crossedOut" hand="#MWS" rend="blackink">life</del>
         <add place="supralinear" hand="#PBS" rend="blackink">animation</add> 

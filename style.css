@@ -364,13 +364,11 @@ p {
 
 .supraAdd {
     vertical-align: super;
-    font-size: medium;
     font-style: italic;
 }
 
 .subAdd {
     vertical-align: sub;
-    font-size: medium;
 }   
 
 .circled {
@@ -555,4 +553,12 @@ p {
 
 .row {
     margin: 3.5rem;
+}
+
+.indented-list-item{
+    text-indent: 20px;
+}
+
+.indented-list{
+    text-align: right;
 }

@@ -104,8 +104,24 @@
         </b></i>
     </xsl:template>
 
+ <xsl:template match='tei:item'>
+    <span class="indented-list">
+    <br/>
+        <xsl:apply-templates/>
+    </span>
+ </xsl:template>
 
+ <xsl:template match='<tei:item[@rend="right"]'>
+    <span class='indented-list-item'>
+        <xsl:apply-templates/>
+    </span>
+ </xsl:template>
 
+ <xsl:template match='<tei:corr'>
+    <i>
+        <xsl:apply-templates/>
+    </i>
+ </xsl:template>
 
 
     
